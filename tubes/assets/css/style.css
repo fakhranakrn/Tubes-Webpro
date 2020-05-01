@@ -1,0 +1,221 @@
+.body {
+	background-color: #fdbf2d;
+	font-family: calibri;
+}
+
+.topnav {
+	padding-top: 20px;
+}
+
+.topnav a {
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: thin;
+	padding: 1px;
+}
+
+.search {
+	float: left;
+	display: block;
+	color: black;
+}
+
+.search input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 0px solid #fdbf2d;
+  border-radius: 4px;
+  font-size: 16px;
+  color: black;
+  background-color: #fdbf2d;
+  background-position: 10px 10px;  
+  background-repeat: no-repeat;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.search input[type=text]:focus {
+  width: 120%;
+  background-color: white;
+}
+
+.search input:-moz-read-only {
+  background-color: lightgrey;
+}
+
+.search input:read-only {
+  background-color: lightgrey;
+}
+
+/* ::placeholder {
+	color: black;
+	opacity: 1;
+}
+
+:-ms-input-placeholder { 
+ color: black;
+}
+
+::-ms-input-placeholder { 
+ color: black;
+} */
+
+.left {
+	float: left;
+	padding-left: 110px;
+}
+
+.left img {
+	width: 12px;
+}
+
+.right {
+	float: right;
+	padding-right: 110px;
+}
+
+.right img {
+	width: 20px;
+}
+
+.right a div img{
+	width: 15px;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 10.5%;
+	height: auto;
+}
+
+.navi {
+	float: none;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navi a { 
+	color: black;
+	text-decoration: none;
+	padding: 12px;
+	font-size: 14px;
+	font-weight: thin;
+	}
+
+.navi a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 88%;
+	height: auto;
+}
+
+.chart {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	height: auto;
+}
+
+.paragraph {
+	float: initial;
+	padding-right: 30%;
+	padding-left: 30%;
+}
+
+.footer a {
+	text-decoration: none;
+	color: white;
+	padding-right: 10px;
+}
+
+.item {
+	width: 75%;
+}
+
+.text-block {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 10px;
+  padding-left: 25px;
+  width: 417px;
+}
+
+.item-name {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 417px;
+}
+
+.sign {
+	background-color: #2d2d2d; 
+	color: white; 
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: 0px solid #2d2d2d;
+	cursor: pointer;
+}
+
+.page-tab {
+	background-color: #2d2d2d; 
+	color: white; 
+	padding: 10px 20px; 
+	text-decoration: none; 
+	margin-left: 47%;
+	cursor: pointer;
+}
+
+.tab-content {
+	display: none;
+}
+
+.table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.table td {
+	text-align: center;
+	padding: 10px 100px 10px 100px;
+}
+
+.table th {
+	padding: 10px 100px 10px 100px;
+}
+
+.table-btn {
+	background-color: #2d2d2d; 
+	color: white; 
+	padding: 10px 20px; 
+	text-decoration: none;
+	cursor: pointer;
+}
+.abtnAdmin {
+	color: white;
+    text-decoration: none;
+}
+
+.cardy {
+	width:90%; 
+	height: 73%;
+}
+
+.nama {
+	  font-size: 25px;
+}
+
+.harga {
+	  font-weight: bold;
+	  font-size: 20px;
+}
